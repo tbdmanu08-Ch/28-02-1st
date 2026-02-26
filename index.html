@@ -9,6 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
     <style>
         :root { --gold: #d4af37; --deep-bg: #050505; }
+        
+        html, body { max-width: 100%; overflow-x: hidden; margin: 0; padding: 0; }
+        * { box-sizing: border-box; }
+
+        @media (max-width: 768px) {
+        .serif.text-7xl { font-size: 3.5rem; line-height: 1.2; }
+        .serif.text-9xl { font-size: 4rem; } }
+        
         body { font-family: 'Poppins', sans-serif; background-color: var(--deep-bg); color: white; scroll-behavior: smooth; }
         .serif { font-family: 'Playfair Display', serif; }
         
@@ -158,4 +166,5 @@
         };
     </script>
 </body>
+
 </html>

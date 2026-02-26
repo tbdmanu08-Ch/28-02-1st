@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Journey | Nanna</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --gold: #d4af37; --deep-bg: #050505; }
+        body { font-family: 'Poppins', sans-serif; background-color: var(--deep-bg); color: white; scroll-behavior: smooth; }
+        .serif { font-family: 'Playfair Display', serif; }
+        
+        /* The Golden Thread Progress */
+        #thread-container { position: fixed; top: 0; left: 0; width: 100%; height: 5px; z-index: 1000; }
+        #thread-line { height: 100%; width: 0%; background: linear-gradient(90deg, transparent, var(--gold), #fff); box-shadow: 0 0 20px var(--gold); }
+
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.1); transition: 0.5s; }
+        .glass:hover { background: rgba(255, 255, 255, 0.07); border-color: var(--gold); }
+        
+        .parallax-bg { background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
+        
+        /* Smooth Video Shapes */
+        .video-blob { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; overflow: hidden; border: 2px solid var(--gold); }
+    </style>
+</head>
+<body>
+
+    <div id="thread-container"><div id="thread-line"></div></div>
+
+    <header class="h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-40 parallax-bg" style="background-image: url('main-cover.jpg');"></div>
+        <div class="z-10 text-center px-4" data-aos="fade-down" data-aos-duration="2000">
+            <h2 class="text-gold tracking-[0.3em] uppercase text-sm mb-4"> The 1st love Anniversary</h2>
+            <h1 class="serif text-7xl md:text-9xl mb-4"> 28-02 <span class="italic text-gold text-5xl md:text-7xl">Chapters</span></h1>
+            <p class="text-xl opacity-60 italic">To the one who made my life a beautiful story.</p>
+        </div>
+    </header>
+
+    <section class="min-h-screen flex items-center justify-center px-6 py-20 bg-black">
+        <div class="max-w-4xl text-center" data-aos="fade-up">
+            <span class="text-5xl text-gold serif">“</span>
+            <p class="serif text-3xl md:text-5xl leading-relaxed italic mb-8">
+                To be honest, you were <span class="text-gray-500">nothing to me</span> in the MCA 1st Semester... <br>
+                but you became <span class="text-gold">everything to me</span> by our last semester.
+            </p>
+            <p class="text-lg text-gray-400 tracking-widest">— A journey i need till my last breath.</p>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="glass p-2 rounded-xl" data-aos="zoom-in"><img src="images\1.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+            <div class="glass p-2 rounded-xl mt-10" data-aos="zoom-in" data-aos-delay="100"><img src="images\2.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+            <div class="glass p-2 rounded-xl" data-aos="zoom-in" data-aos-delay="200"><img src="images\3.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+    
+            <div class="glass p-2 rounded-xl" data-aos="zoom-in"><img src="images\4.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+            <div class="glass p-2 rounded-xl mt-10" data-aos="zoom-in" data-aos-delay="100"><img src="images\5.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+            <div class="glass p-2 rounded-xl" data-aos="zoom-in" data-aos-delay="200"><img src="images\5.1.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+
+            <div class="glass p-2 rounded-xl" data-aos="zoom-in"><img src="images\6.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+            <div class="glass p-2 rounded-xl mt-10" data-aos="zoom-in" data-aos-delay="100"><img src="images\7.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+            <div class="glass p-2 rounded-xl" data-aos="zoom-in" data-aos-delay="200"><img src="images\8.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+
+            <div class="glass p-2 rounded-xl" data-aos="zoom-in"><img src="images\9.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+            <div class="glass p-2 rounded-xl mt-10" data-aos="zoom-in" data-aos-delay="100"><img src="images\10.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+            <div class="glass p-2 rounded-xl" data-aos="zoom-in" data-aos-delay="200"><img src="images\11.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+
+            <div class="glass p-2 rounded-xl mt-10" data-aos="zoom-in" data-aos-delay="100"><img src="images\12.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+            <div class="glass p-2 rounded-xl" data-aos="zoom-in" data-aos-delay="200"><img src="images\13.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+            <div class="glass p-2 rounded-xl" data-aos="zoom-in" data-aos-delay="200"><img src="images\14.jpg" class="h-80 w-full object-cover rounded-lg"></div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-[#080808]">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div class="video-blob aspect-square" data-aos="fade-right">
+                <video autoplay muted loop class="w-full h-full object-cover"><source src="images\1.mp4" type="video/mp4"></video>
+            </div>
+            <div data-aos="fade-left">
+                <h3 class="serif text-4xl mb-6">Moving Memories</h3>
+                <p class="text-gray-400 mb-6 leading-loose">Some feelings are too big for photos. These are the moments where I hear your laugh and feel your presence the most.</p>
+                <div class="h-1 w-20 bg-gold"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-32 relative overflow-hidden text-center bg-black">
+        <div class="z-10 relative px-6" data-aos="flip-up">
+            <h2 class="serif text-4xl md:text-5xl mb-10 text-gold">My Circle of Four</h2>
+            <p class="max-w-2xl mx-auto text-xl leading-relaxed text-gray-300 italic">
+                "There are only 4 important persons in my life. I can live with them throughout my life without even interacting with a 5th person in this world."
+            </p>
+            <p class="mt-10 font-bold tracking-[0.4em] text-white">AND YOU ARE ONE OF THEM.</p>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="columns-1 md:columns-3 gap-6 space-y-6">
+            <div class="glass p-2 rounded-xl" data-aos="fade-up"><img src="images\18.jpg" class="w-full rounded-lg"></div>
+            <div class="glass p-2 rounded-xl" data-aos="fade-up"><img src="images\17.jpg" class="w-full rounded-lg"></div>
+            <div class="glass p-2 rounded-xl" data-aos="fade-up"><img src="images\16.jpg" class="w-full rounded-lg"></div>
+            <!-- <div class="glass p-2 rounded-xl" data-aos="fade-up"><img src="img10.jpg" class="w-full rounded-lg"></div>
+            <div class="glass p-2 rounded-xl" data-aos="fade-up"><img src="img11.jpg" class="w-full rounded-lg"></div>
+            <div class="glass p-2 rounded-xl" data-aos="fade-up"><img src="img12.jpg" class="w-full rounded-lg"></div> -->
+        </div>
+    </section>
+
+    <section class="py-24 bg-[#0a0a0a]">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h3 class="serif text-3xl mb-12">Follow for Us</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass p-8 rounded-3xl" data-aos="fade-up">
+                    <div class="text-gold text-2xl mb-4">01</div>
+                    <p class="text-sm">"Don't just react. **Think it, analyze it, and get the solutions.** Most problems are just puzzles waiting for a calm mind."</p>
+                </div>
+                <div class="glass p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-gold text-2xl mb-4">02</div>
+                    <p class="text-sm">"In a world full of noise, prioritize our peace. If a solution doesn't bring peace, it's not the right solution."</p>
+                </div>
+                <div class="glass p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-gold text-2xl mb-4">03</div>
+                    <p class="text-sm">"Growth isn't fast; it's consistent. The best things take time to build."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 flex flex-col items-center">
+        <div class="flex flex-wrap justify-center gap-10 px-6">
+            <video muted loop onmouseover="this.play()" class="w-72 h-72 object-cover video-blob" data-aos="zoom-in">
+                <source src="images\2.mp4" type="video/mp4">
+            </video>
+            <video muted loop onmouseover="this.play()" class="w-72 h-72 object-cover video-blob mt-12" data-aos="zoom-in" data-aos-delay="200">
+                <source src="images\3.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <footer class="py-20 text-center">
+        <div data-aos="zoom-out">
+            <h2 class="serif text-5xl mb-6 italic">Forever to go.</h2>
+            <p class="tracking-[0.8em] text-gold uppercase text-xs">With Love, Pandu</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: false });
+
+        // Scroll Progress Thread
+        window.onscroll = function() {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            document.getElementById("thread-line").style.width = scrolled + "%";
+        };
+    </script>
+</body>
+</html>
